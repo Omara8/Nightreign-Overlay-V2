@@ -8,8 +8,7 @@
   "main": "app/main/main.js",
   "scripts": {
     "start": "electron .",
-    "dist:win": "electron-builder --win portable",
-    "dist:dir": "electron-builder --win zip"
+    "dist:win": "electron-builder --win --x64 --arm64"
   },
   "devDependencies": {
     "electron": "38.1.2",
@@ -55,7 +54,7 @@
           "target": "zip"
         }
       ],
-      "artifactName": "${productName}-${version}.${ext}"
+      "artifactName": "${productName}-${version}-${arch}.${ext}"
     },
     "extraMetadata": {
       "main": "app/main/main.js"
