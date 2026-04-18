@@ -6,20 +6,30 @@
   const MAP_MAX_SIZE = 1500;
   const ICON_SCALE_RATIO = 1 / 14;
 
-  const SLOT_ID_RANGE = Array.from({ length: 27 }, (_, index) =>
-    String(index + 1).padStart(2, '0')
-  );
+  function deriveSlotIdRange(slotCoordsByMapType) {
+    const ids = new Set();
+    for (const coords of Object.values(slotCoordsByMapType || {})) {
+      if (!Array.isArray(coords)) continue;
+      for (const coord of coords) {
+        if (coord && coord.id && coord.id !== 'nightlord') {
+          ids.add(String(coord.id));
+        }
+      }
+    }
+    return Array.from(ids).sort();
+  }
 
   const buildingIconIds = [
     'empty',
+    // original types
     'church',
-    'spawn',
     'church_spawn',
-    'fort',
-    'fort_magic',
+    'spawn',
     'greatchurch',
     'greatchurch_fire',
     'greatchurch_holy',
+    'fort',
+    'fort_magic',
     'mainencampment',
     'mainencampment_electric',
     'mainencampment_fire',
@@ -36,6 +46,38 @@
     'ruins_sleep',
     'sorcerers',
     'township',
+    // new types
+    'temple',
+    'blacksmith_town',
+    'blacksmith_town_bleed',
+    'blacksmith_town_blight',
+    'blacksmith_town_fire',
+    'blacksmith_town_frostbite',
+    'blacksmith_town_holy',
+    'blacksmith_town_lightning',
+    'blacksmith_town_madness',
+    'blacksmith_town_magic',
+    'blacksmith_town_poison',
+    'blacksmith_town_rot',
+    'blacksmith_town_sleep',
+    'small_castle',
+    'small_castle_fire',
+    'small_castle_magic',
+    'medium_castle',
+    'medium_castle_holy',
+    'medium_castle_rot',
+    'march',
+    'march_bleed',
+    'march_blight',
+    'march_fire',
+    'march_frostbite',
+    'march_holy',
+    'march_lightning',
+    'march_madness',
+    'march_magic',
+    'march_poison',
+    'march_rot',
+    'march_sleep',
   ];
 
   function buildIconPath(dir, file) {
@@ -56,6 +98,8 @@
     Fulghor: buildIconPath('nightlordIcons', 'Fulghor'),
     Caligo: buildIconPath('nightlordIcons', 'Caligo'),
     Heolstor: buildIconPath('nightlordIcons', 'Heolstor'),
+    Harmonia: buildIconPath('nightlordIcons', 'Harmonia'),
+    Straghess: buildIconPath('nightlordIcons', 'Straghess'),
   };
 
   const DEFAULT_MAP_THUMB_ORDER = [
@@ -64,6 +108,7 @@
     'Crater',
     'Rotted Woods',
     'Noklateo, the Shrouded City',
+    'Forsaken Hollows',
   ];
 
   const disabledSlotsByMap = {
@@ -104,10 +149,10 @@
     return ordered.filter(type => mapBackgroundByType[type]);
   }
 
-  function normalizeSlots(slots) {
+  function normalizeSlots(slots, slotIdRange) {
     const normalized = {};
     const source = slots && typeof slots === 'object' ? slots : {};
-    for (const slotId of SLOT_ID_RANGE) {
+    for (const slotId of slotIdRange) {
       const fallbackKey = String(Number(slotId));
       const value = source[slotId] ?? source[fallbackKey] ?? '';
       normalized[slotId] = typeof value === 'string' ? value : String(value || '');
@@ -115,7 +160,7 @@
     return normalized;
   }
 
-  function normalizeSeedData(record) {
+  function normalizeSeedData(record, slotIdRange) {
     if (!record || typeof record !== 'object') {
       return null;
     }
@@ -123,7 +168,7 @@
     const shiftingEarth = record.map_type || 'Default';
     const normalized = {
       ...record,
-      slots: normalizeSlots(record.slots),
+      slots: normalizeSlots(record.slots, slotIdRange),
       shiftingEarth,
     };
 
@@ -136,7 +181,7 @@
   }
 
   async function loadAll() {
-    const slotCoords = (await fetchJson('../assets/data/coordsXY.json', [])) || [];
+    const rawCoords = (await fetchJson('../assets/data/coordsXY.json', [])) || [];
     const rawSeeds = (await fetchJson('../assets/data/seed_data.json', [])) || [];
     const rawBackgrounds = (await fetchJson('../assets/data/map_backgrounds.json', {})) || {};
 
@@ -147,13 +192,21 @@
       }
     }
 
-    const seeds = rawSeeds.map(normalizeSeedData).filter(Boolean);
+    // coordsXY.json is either the new per-map-type dict or the legacy flat array.
+    // Shifting Earth variants (Mountaintop, Crater, Rotted Woods, Noklateo) share
+    // the Default grid, so they fall back to Default when not explicitly listed.
+    const slotCoordsByMapType = Array.isArray(rawCoords)
+      ? { Default: rawCoords }
+      : rawCoords;
+
+    const slotIdRange = deriveSlotIdRange(slotCoordsByMapType);
+    const seeds = rawSeeds.map(record => normalizeSeedData(record, slotIdRange)).filter(Boolean);
 
     const mapThumbOrder = resolveMapThumbOrder(mapBackgroundByType);
     const mapTypeList = resolveMapTypes(seeds, mapBackgroundByType);
 
     return {
-      slotCoords,
+      slotCoordsByMapType,
       seeds,
       mapBackgroundByType,
       mapThumbOrder,

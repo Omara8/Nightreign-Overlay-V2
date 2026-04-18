@@ -10415,5 +10415,2291 @@
         "location": "West of Warmaster's Shack"
       }
     ]
+  },
+  {
+    "layout_number": "1031",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 28,
+        "value": "Church - Normal",
+        "location": "Southeast of Lake"
+      },
+      {
+        "poi_id": 206,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 34,
+        "value": "Church - Normal",
+        "location": "Above Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 36,
+        "value": "Church - Rats",
+        "location": "Below Summonwater Hawk"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 209,
+        "value": "Sorcerer's Rise - Imp Statue",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Bloodhound Knight",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Omen",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Grave Warden Duelist",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Godskin Apostle",
+        "location": "Northeast Tunnel Entrance"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Dragonkin Soldier",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Crystalians",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Banished Knights",
+        "location": "East of Lake"
+      }
+    ],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Elder Lion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Death Rite Bird",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Night's Cavalry",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Draconic Tree Sentinel",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Miranda Blossom",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Flying Dragon",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Royal Revenant",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Red Wolf",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Leonine Misbegotten",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Tree Sentinel",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Bell Bearing Hunter",
+        "location": "Castle Basement"
+      }
+    ],
+    "camps": [
+      {
+        "poi_id": 96,
+        "value": "Camp - Banished Knights",
+        "location": "Gatefront"
+      },
+      {
+        "poi_id": 107,
+        "value": "Camp - Elder Lion",
+        "location": "South Mistwood"
+      },
+      {
+        "poi_id": 100,
+        "value": "Camp - Elder Lion",
+        "location": "Summonwater Approach"
+      },
+      {
+        "poi_id": 105,
+        "value": "Camp - Redmane Knights",
+        "location": "West Mistwood"
+      }
+    ],
+    "great_churches": [
+      {
+        "poi_id": 103,
+        "value": "Great Church - Mausoleum Knight",
+        "location": "Northwest Mistwood"
+      },
+      {
+        "poi_id": 99,
+        "value": "Great Church - Fire Monk",
+        "location": "Northeast Stormhill"
+      }
+    ],
+    "blacksmith_town": [
+      {
+        "poi_id": 215,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Southwest of Minor Erdtree"
+      },
+      {
+        "poi_id": 93,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "South Lake"
+      },
+      {
+        "poi_id": 98,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Alexander Spot"
+      },
+      {
+        "poi_id": 104,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Northeast Mistwood"
+      },
+      {
+        "poi_id": 94,
+        "value": "Blacksmith Town - Divine Bird Warrior",
+        "location": "Groveside"
+      },
+      {
+        "poi_id": 108,
+        "value": "Blacksmith Town - Chief Bloodfiend",
+        "location": "Waypoint Ruins"
+      }
+    ],
+    "march": [
+      {
+        "poi_id": 95,
+        "value": "March - Cuckoo Knights",
+        "location": "Stormhill North of Gate"
+      },
+      {
+        "poi_id": 102,
+        "value": "March - Cuckoo Knights",
+        "location": "Artist's Shack"
+      },
+      {
+        "poi_id": 97,
+        "value": "March - Cuckoo Knights",
+        "location": "Northwest Stormhill"
+      },
+      {
+        "poi_id": 101,
+        "value": "March - Nomads",
+        "location": "Summonwater"
+      }
+    ],
+    "caravans": [],
+    "temple": [],
+    "medium_castle": [],
+    "small_castle": [],
+    "extra_night_boss": "empty",
+    "special_events": [],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 184
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Godskin Duo",
+      "poi_id": 177
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 204,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Trolls",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "1032",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      },
+      {
+        "poi_id": 37,
+        "value": "Church - Normal",
+        "location": "Third Church"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 30,
+        "value": "Sorcerer's Rise - Above door",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 206,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Godskin Apostle",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Omen",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crystalians",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Crucible Knight with Spear",
+        "location": "Northeast Tunnel Entrance"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Nox Warriors",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Ancient Dragon",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Grave Warden Duelist",
+        "location": "East of Lake"
+      }
+    ],
+    "forts": [],
+    "ruins": [
+      {
+        "poi_id": 104,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "Northeast Mistwood"
+      },
+      {
+        "poi_id": 98,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "Alexander Spot"
+      },
+      {
+        "poi_id": 105,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "West Mistwood"
+      },
+      {
+        "poi_id": 108,
+        "value": "Ruins - Albinauric Archers",
+        "location": "Waypoint Ruins"
+      },
+      {
+        "poi_id": 107,
+        "value": "Ruins - Runebear",
+        "location": "South Mistwood"
+      },
+      {
+        "poi_id": 102,
+        "value": "Ruins - Runebear",
+        "location": "Artist's Shack"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 89,
+        "boss": "Royal Revenant",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Elder Lion",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Magma Wyrm",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Golden Hippopotamus",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Tree Sentinel",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Night's Cavalry",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Miranda Blossom",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Blade Kindred",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Ancestor Spirit",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Demi-Human Queen",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Death Rite Bird",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "camps": [],
+    "great_churches": [
+      {
+        "poi_id": 95,
+        "value": "Great Church - Guardian Golem",
+        "location": "Stormhill North of Gate"
+      },
+      {
+        "poi_id": 94,
+        "value": "Great Church - Fire Monk",
+        "location": "Groveside"
+      }
+    ],
+    "blacksmith_town": [
+      {
+        "poi_id": 215,
+        "value": "Blacksmith Town - Omen",
+        "location": "Southwest of Minor Erdtree"
+      },
+      {
+        "poi_id": 93,
+        "value": "Blacksmith Town - Death Knight",
+        "location": "South Lake"
+      },
+      {
+        "poi_id": 103,
+        "value": "Blacksmith Town - Death Knight",
+        "location": "Northwest Mistwood"
+      },
+      {
+        "poi_id": 97,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Northwest Stormhill"
+      },
+      {
+        "poi_id": 100,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Summonwater Approach"
+      }
+    ],
+    "march": [
+      {
+        "poi_id": 96,
+        "value": "March - Spider Scorpion",
+        "location": "Gatefront"
+      },
+      {
+        "poi_id": 99,
+        "value": "March - Frost Crayfish",
+        "location": "Northeast Stormhill"
+      },
+      {
+        "poi_id": 101,
+        "value": "March - Frost Crayfish",
+        "location": "Summonwater"
+      }
+    ],
+    "caravans": [
+      {
+        "poi_id": 208,
+        "value": "Small Camp - Caravans",
+        "location": "TBD"
+      }
+    ],
+    "temple": [],
+    "medium_castle": [],
+    "small_castle": [],
+    "extra_night_boss": "empty",
+    "special_events": [],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Grafted Monarch",
+      "poi_id": 183
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Fallingstar Beast",
+      "poi_id": 177
+    },
+    "townships": [
+      {
+        "poi_id": 204,
+        "value": "Township - Township",
+        "location": "TBD"
+      }
+    ],
+    "spawn_points": [
+      {
+        "poi_id": 202,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "1033",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 29,
+        "value": "Church - Normal",
+        "location": "East of Cavalry Bridge"
+      },
+      {
+        "poi_id": 35,
+        "value": "Church - Normal",
+        "location": "Northeast of Saintsbridge"
+      },
+      {
+        "poi_id": 206,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Withered Trees",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 37,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Nox Warriors",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Dragonkin Soldier",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Death Rite Bird",
+        "location": "Northeast Tunnel Entrance"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Bloodhound Knight",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Godskin Noble",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastly Brigade",
+        "location": "East of Lake"
+      }
+    ],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 89,
+        "boss": "Black Blade Kindred",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Night's Cavalry",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Black Knife Assassin",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Golden Hippopotamus",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Elder Lion",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Royal Revenant",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Magma Wyrm",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Erdtree Avatar",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Royal Carian Knight",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "camps": [
+      {
+        "poi_id": 101,
+        "value": "Camp - Banished Knights",
+        "location": "Summonwater"
+      },
+      {
+        "poi_id": 102,
+        "value": "Camp - Banished Knights",
+        "location": "Artist's Shack"
+      },
+      {
+        "poi_id": 104,
+        "value": "Camp - Leonine Misbegotten",
+        "location": "Northeast Mistwood"
+      },
+      {
+        "poi_id": 96,
+        "value": "Camp - Redmane Knights",
+        "location": "Gatefront"
+      }
+    ],
+    "great_churches": [
+      {
+        "poi_id": 100,
+        "value": "Great Church - Guardian Golem",
+        "location": "Summonwater Approach"
+      },
+      {
+        "poi_id": 107,
+        "value": "Great Church - Guardian Golem",
+        "location": "South Mistwood"
+      },
+      {
+        "poi_id": 94,
+        "value": "Great Church - Mausoleum Knight",
+        "location": "Groveside"
+      }
+    ],
+    "blacksmith_town": [
+      {
+        "poi_id": 105,
+        "value": "Blacksmith Town - Blackflame Monks",
+        "location": "West Mistwood"
+      },
+      {
+        "poi_id": 98,
+        "value": "Blacksmith Town - Death Knight",
+        "location": "Alexander Spot"
+      },
+      {
+        "poi_id": 97,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Northwest Stormhill"
+      },
+      {
+        "poi_id": 95,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "Stormhill North of Gate"
+      }
+    ],
+    "march": [
+      {
+        "poi_id": 99,
+        "value": "March - Cleanrot Knight",
+        "location": "Northeast Stormhill"
+      },
+      {
+        "poi_id": 103,
+        "value": "March - Cleanrot Knight",
+        "location": "Northwest Mistwood"
+      },
+      {
+        "poi_id": 215,
+        "value": "March - Cleanrot Knight",
+        "location": "Southwest of Minor Erdtree"
+      },
+      {
+        "poi_id": 93,
+        "value": "March - Cleanrot Knight",
+        "location": "South Lake"
+      },
+      {
+        "poi_id": 108,
+        "value": "March - Sanguine Nobles",
+        "location": "Waypoint Ruins"
+      }
+    ],
+    "caravans": [
+      {
+        "poi_id": 202,
+        "value": "Small Camp - Caravans",
+        "location": "TBD"
+      }
+    ],
+    "temple": [],
+    "medium_castle": [],
+    "small_castle": [],
+    "extra_night_boss": "empty",
+    "special_events": [
+      {
+        "event": "Day 1 Balancers Raid",
+        "night": 1,
+        "location": "TBD",
+        "poi_id": 0
+      }
+    ],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Grafted Monarch",
+      "poi_id": 181
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Godskin Duo",
+      "poi_id": 180
+    },
+    "townships": [
+      {
+        "poi_id": 33,
+        "value": "Township - Township",
+        "location": "West of Warmaster's Shack"
+      }
+    ],
+    "spawn_points": [
+      {
+        "poi_id": 207,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "crucible knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "1034",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 30,
+        "value": "Church - Normal",
+        "location": "Lake"
+      },
+      {
+        "poi_id": 31,
+        "value": "Church - Rats",
+        "location": "Far Southwest"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 206,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 204,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Dragonkin Soldier",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Banished Knights",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Crystalians",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Stoneskin Lords",
+        "location": "Northeast Tunnel Entrance"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Beastmen of Farum Azula",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Beastly Brigade",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Crucible Knight with Sword",
+        "location": "East of Lake"
+      }
+    ],
+    "forts": [
+      {
+        "poi_id": 97,
+        "value": "Fort - Guardian Golem",
+        "location": "Northwest Stormhill"
+      },
+      {
+        "poi_id": 94,
+        "value": "Fort - Guardian Golem",
+        "location": "Groveside"
+      },
+      {
+        "poi_id": 102,
+        "value": "Fort - Abductor Virgin",
+        "location": "Artist's Shack"
+      }
+    ],
+    "ruins": [
+      {
+        "poi_id": 108,
+        "value": "Ruins - Depraved Perfumer",
+        "location": "Waypoint Ruins"
+      },
+      {
+        "poi_id": 105,
+        "value": "Ruins - Depraved Perfumer",
+        "location": "West Mistwood"
+      },
+      {
+        "poi_id": 96,
+        "value": "Ruins - Albinauric Archers",
+        "location": "Gatefront"
+      },
+      {
+        "poi_id": 95,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "Stormhill North of Gate"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 88,
+        "boss": "Leonine Misbegotten",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 89,
+        "boss": "Royal Carian Knight",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Grafted Scion",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Demi-Human Queen",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Elder Lion",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Erdtree Avatar",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Night's Cavalry",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Tree Sentinel",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Magma Wyrm",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Red Wolf",
+        "location": "Castle Basement"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [
+      {
+        "poi_id": 100,
+        "value": "Blacksmith Town - Chief Bloodfiend",
+        "location": "Summonwater Approach"
+      },
+      {
+        "poi_id": 98,
+        "value": "Blacksmith Town - Divine Bird Warrior",
+        "location": "Alexander Spot"
+      },
+      {
+        "poi_id": 215,
+        "value": "Blacksmith Town - Divine Bird Warrior",
+        "location": "Southwest of Minor Erdtree"
+      },
+      {
+        "poi_id": 103,
+        "value": "Blacksmith Town - Divine Bird Warrior",
+        "location": "Northwest Mistwood"
+      },
+      {
+        "poi_id": 107,
+        "value": "Blacksmith Town - Grave Warden Duelists",
+        "location": "South Mistwood"
+      }
+    ],
+    "march": [
+      {
+        "poi_id": 104,
+        "value": "March - Spider Scorpion",
+        "location": "Northeast Mistwood"
+      },
+      {
+        "poi_id": 101,
+        "value": "March - Sanguine Nobles",
+        "location": "Summonwater"
+      },
+      {
+        "poi_id": 93,
+        "value": "March - Sanguine Nobles",
+        "location": "South Lake"
+      },
+      {
+        "poi_id": 99,
+        "value": "March - Spider Scorpion",
+        "location": "Northeast Stormhill"
+      }
+    ],
+    "caravans": [
+      {
+        "poi_id": 201,
+        "value": "Small Camp - Caravans",
+        "location": "TBD"
+      }
+    ],
+    "temple": [],
+    "medium_castle": [],
+    "small_castle": [],
+    "extra_night_boss": "empty",
+    "special_events": [
+      {
+        "event": "Day 2 Caligo Blizzard",
+        "night": 2,
+        "location": "TBD",
+        "poi_id": 0
+      }
+    ],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 179
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Godskin Duo",
+      "poi_id": 182
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 207,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "banished Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "1035",
+    "nightlord": "Maris",
+    "shifting_earth": "Default",
+    "churches": [
+      {
+        "poi_id": 36,
+        "value": "Church - Normal",
+        "location": "Below Summonwater Hawk"
+      },
+      {
+        "poi_id": 32,
+        "value": "Church - Normal",
+        "location": "Stormhill South of Gate"
+      },
+      {
+        "poi_id": 33,
+        "value": "Church - Normal",
+        "location": "West of Warmaster's Shack"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 28,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 29,
+        "value": "Sorcerer's Rise - Windy Trees",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 34,
+        "value": "Sorcerer's Rise - Fake Building",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [
+      {
+        "poi_id": 82,
+        "boss": "Stoneskin Lords",
+        "location": "Northwest of Lake"
+      },
+      {
+        "poi_id": 76,
+        "boss": "Bloodhound Knight",
+        "location": "Stormhill"
+      },
+      {
+        "poi_id": 77,
+        "boss": "Grave Warden Duelist",
+        "location": "Highroad"
+      },
+      {
+        "poi_id": 79,
+        "boss": "Nox Warriors",
+        "location": "Northeast Tunnel Entrance"
+      },
+      {
+        "poi_id": 78,
+        "boss": "Crucible Knight with Spear",
+        "location": "Murkwater Terminus"
+      },
+      {
+        "poi_id": 80,
+        "boss": "Dragonkin Soldier",
+        "location": "Mistwood"
+      },
+      {
+        "poi_id": 81,
+        "boss": "Beastly Brigade",
+        "location": "East of Lake"
+      }
+    ],
+    "forts": [
+      {
+        "poi_id": 96,
+        "value": "Fort - Guardian Golem",
+        "location": "Gatefront"
+      },
+      {
+        "poi_id": 94,
+        "value": "Fort - Crystalians",
+        "location": "Groveside"
+      }
+    ],
+    "ruins": [
+      {
+        "poi_id": 97,
+        "value": "Ruins - Perfumer",
+        "location": "Northwest Stormhill"
+      },
+      {
+        "poi_id": 100,
+        "value": "Ruins - Perfumer",
+        "location": "Summonwater Approach"
+      },
+      {
+        "poi_id": 102,
+        "value": "Ruins - Battlemages",
+        "location": "Artist's Shack"
+      },
+      {
+        "poi_id": 104,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "Northeast Mistwood"
+      },
+      {
+        "poi_id": 215,
+        "value": "Ruins - Ancient Heroes of Zamor",
+        "location": "Southwest of Minor Erdtree"
+      }
+    ],
+    "field_bosses": [
+      {
+        "poi_id": 89,
+        "boss": "Magma Wyrm",
+        "location": "Northwest Stormhill Cliffside"
+      },
+      {
+        "poi_id": 88,
+        "boss": "Red Wolf",
+        "location": "Stormhill Spectral Hawk"
+      },
+      {
+        "poi_id": 86,
+        "boss": "Leonine Misbegotten",
+        "location": "North of Stormhill Tunnel Entrance"
+      },
+      {
+        "poi_id": 87,
+        "boss": "Tree Sentinel",
+        "location": "North of Murkwater Terminus"
+      },
+      {
+        "poi_id": 90,
+        "boss": "Royal Revenant",
+        "location": "East of Murkwater Terminus"
+      },
+      {
+        "poi_id": 91,
+        "boss": "Ancient Hero of Zamor",
+        "location": "Northwest of Summonwater"
+      },
+      {
+        "poi_id": 92,
+        "boss": "Night's Cavalry",
+        "location": "North Mistwood"
+      },
+      {
+        "poi_id": 83,
+        "boss": "Black Knife Assassin",
+        "location": "Mistwood Spectral Hawk"
+      },
+      {
+        "poi_id": 84,
+        "boss": "Draconic Tree Sentinel",
+        "location": "Lake Field Boss"
+      },
+      {
+        "poi_id": 85,
+        "boss": "Death Rite Bird",
+        "location": "Far Southwest of Lake"
+      },
+      {
+        "poi_id": 158,
+        "boss": "Erdtree Avatar",
+        "location": "Castle Rooftop"
+      },
+      {
+        "poi_id": 23,
+        "boss": "Grafted Scion",
+        "location": "Castle Basement"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [
+      {
+        "poi_id": 101,
+        "value": "Blacksmith Town - Blackflame Monks",
+        "location": "Summonwater"
+      },
+      {
+        "poi_id": 98,
+        "value": "Blacksmith Town - Death Knight",
+        "location": "Alexander Spot"
+      },
+      {
+        "poi_id": 95,
+        "value": "Blacksmith Town - Chief Bloodfiend",
+        "location": "Stormhill North of Gate"
+      },
+      {
+        "poi_id": 107,
+        "value": "Blacksmith Town - Chief Bloodfiend",
+        "location": "South Mistwood"
+      }
+    ],
+    "march": [
+      {
+        "poi_id": 105,
+        "value": "March - Kindred of Rot",
+        "location": "West Mistwood"
+      },
+      {
+        "poi_id": 108,
+        "value": "March - Kindred of Rot",
+        "location": "Waypoint Ruins"
+      },
+      {
+        "poi_id": 93,
+        "value": "March - Kindred of Rot",
+        "location": "South Lake"
+      },
+      {
+        "poi_id": 103,
+        "value": "March - Frost Crayfish",
+        "location": "Northwest Mistwood"
+      },
+      {
+        "poi_id": 99,
+        "value": "March - Frost Crayfish",
+        "location": "Northeast Stormhill"
+      }
+    ],
+    "caravans": [],
+    "temple": [],
+    "medium_castle": [],
+    "small_castle": [],
+    "extra_night_boss": "empty",
+    "special_events": [
+      {
+        "event": "Day 1 Balancers Raid",
+        "night": 1,
+        "location": "TBD",
+        "poi_id": 0
+      }
+    ],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Grafted Monarch",
+      "poi_id": 180
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Fallingstar Beast",
+      "poi_id": 184
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 207,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [
+      {
+        "poi_id": 159,
+        "boss": "Crucible Knights",
+        "location": "Castle"
+      }
+    ]
+  },
+  {
+    "layout_number": "1036",
+    "nightlord": "Maris",
+    "shifting_earth": "Forsaken Hollows",
+    "churches": [
+      {
+        "poi_id": 245,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 256,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 266,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 260,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 282,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 246,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 252,
+        "boss": "Ancient Hero of Zamor",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 264,
+        "boss": "Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 268,
+        "boss": "Golden Hippopotamus",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 258,
+        "boss": "Leonine Misbegotten",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 262,
+        "boss": "Elder Lion",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 253,
+        "boss": "Mimic Tears",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 272,
+        "boss": "Black Knife Assassin",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 271,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 261,
+        "boss": "Black Blade Kindred",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 263,
+        "boss": "Grafted Scion",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 270,
+        "boss": "Spider Scorpions",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 267,
+        "boss": "Curseblade",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 269,
+        "boss": "Divine Beast Warrior",
+        "location": "TBD"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [],
+    "march": [],
+    "caravans": [],
+    "temple": [
+      {
+        "poi_id": 277,
+        "boss": "night's cavalry duo",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "death rite bird",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "outland commander",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "royal revenant",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "demi-human queen and swordmaster",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "fallingstar beast",
+        "location": "TBD"
+      }
+    ],
+    "medium_castle": [
+      {
+        "poi_id": 273,
+        "boss": "divine beast warrior",
+        "location": "TBD"
+      }
+    ],
+    "small_castle": [
+      {
+        "poi_id": 247,
+        "boss": "Godskin duo",
+        "location": "TBD"
+      }
+    ],
+    "extra_night_boss": "Draconic Tree Sentinel and Royal Cavalrymen",
+    "special_events": [
+      {
+        "event": "Day 2 Extra Night Boss",
+        "night": 2,
+        "location": "TBD",
+        "poi_id": 0
+      }
+    ],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Wormface",
+      "poi_id": 274
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Godskin Duo",
+      "poi_id": 250
+    },
+    "townships": [
+      {
+        "poi_id": 259,
+        "value": "Township - Township",
+        "location": "TBD"
+      }
+    ],
+    "spawn_points": [
+      {
+        "poi_id": 248,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [],
+    "day2_location": {
+      "poi_id": 279,
+      "value": "Day 2 Circle"
+    }
+  },
+  {
+    "layout_number": "1037",
+    "nightlord": "Maris",
+    "shifting_earth": "Forsaken Hollows",
+    "churches": [
+      {
+        "poi_id": 245,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 256,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 260,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 266,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 280,
+        "value": "Sorcerer's Rise - Fleeing Stump",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 282,
+        "value": "Sorcerer's Rise - Fog Door",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 246,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 252,
+        "boss": "Red Wolf",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 264,
+        "boss": "Ancient Hero of Zamor",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 268,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 258,
+        "boss": "Leonine Misbegotten",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 262,
+        "boss": "Elder Lion",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 253,
+        "boss": "Giant Crabs",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 272,
+        "boss": "Black Knife Assassin",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 271,
+        "boss": "Royal Carian Knight",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 261,
+        "boss": "Bell Bearing Hunter",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 263,
+        "boss": "Golden Hippopotamus",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 270,
+        "boss": "Chief Bloodfiend",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 267,
+        "boss": "Bloodbane Giant Crows",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 269,
+        "boss": "Putrid Avatar",
+        "location": "TBD"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [],
+    "march": [],
+    "caravans": [],
+    "temple": [
+      {
+        "poi_id": 277,
+        "boss": "the duke's dear freja",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "grafted monarch",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "great wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "ulcerated tree spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "tree sentinel and royal cavalrymen",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "dragonkin soldier",
+        "location": "TBD"
+      }
+    ],
+    "medium_castle": [
+      {
+        "poi_id": 273,
+        "boss": "cleanrot knights",
+        "location": "TBD"
+      }
+    ],
+    "small_castle": [
+      {
+        "poi_id": 247,
+        "boss": "Golden hippopotamus",
+        "location": "TBD"
+      }
+    ],
+    "extra_night_boss": "empty",
+    "special_events": [],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Valiant Gargoyle",
+      "poi_id": 265
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Fallingstar Beast",
+      "poi_id": 250
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 276,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [],
+    "day2_location": {
+      "poi_id": 279,
+      "value": "Day 2 Circle"
+    }
+  },
+  {
+    "layout_number": "1038",
+    "nightlord": "Maris",
+    "shifting_earth": "Forsaken Hollows",
+    "churches": [
+      {
+        "poi_id": 245,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 256,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 266,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 280,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 282,
+        "value": "Sorcerer's Rise - Missing Statue",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 260,
+        "value": "Sorcerer's Rise - Unlit Candle",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 246,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 252,
+        "boss": "Royal Carian Knight",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 264,
+        "boss": "Golden Hippopotamus",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 268,
+        "boss": "Miranda Blossom",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 258,
+        "boss": "Black Knife Assassin",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 262,
+        "boss": "Demi-Human Queen",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 253,
+        "boss": "Mimic Tears",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 272,
+        "boss": "Leonine Misbegotten",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 271,
+        "boss": "Draconic Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 261,
+        "boss": "Red Wolf",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 263,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 270,
+        "boss": "Spider Scorpions",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 267,
+        "boss": "Curseblade",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 269,
+        "boss": "Putrid Avatar",
+        "location": "TBD"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [],
+    "march": [],
+    "caravans": [],
+    "temple": [
+      {
+        "poi_id": 277,
+        "boss": "valiant gargoyle",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "dancer of the boreal valley",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "death rite bird",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "night's cavalry duo",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "bell bearing hunter",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "crucible knight and golden hippopotamus",
+        "location": "TBD"
+      }
+    ],
+    "medium_castle": [
+      {
+        "poi_id": 273,
+        "boss": "cleanrot knights",
+        "location": "TBD"
+      }
+    ],
+    "small_castle": [
+      {
+        "poi_id": 247,
+        "boss": "Godskin duo",
+        "location": "TBD"
+      }
+    ],
+    "extra_night_boss": "empty",
+    "special_events": [
+      {
+        "event": "Day 1 Gnoster Plague",
+        "night": 1,
+        "location": "TBD",
+        "poi_id": 0
+      }
+    ],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Gaping Dragon",
+      "poi_id": 255
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Tree Sentinel and Royal Cavalrymen",
+      "poi_id": 250
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 281,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [],
+    "day2_location": {
+      "poi_id": 251,
+      "value": "Day 2 Circle"
+    }
+  },
+  {
+    "layout_number": "1039",
+    "nightlord": "Maris",
+    "shifting_earth": "Forsaken Hollows",
+    "churches": [
+      {
+        "poi_id": 245,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 256,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 266,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 280,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 260,
+        "value": "Sorcerer's Rise - Above Door",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 246,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 252,
+        "boss": "Royal Revenant",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 264,
+        "boss": "Leonine Misbegotten",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 268,
+        "boss": "Royal Carian Knight",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 258,
+        "boss": "Ancient Hero of Zamor",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 262,
+        "boss": "Elder Lion",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 253,
+        "boss": "Mimic Tears",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 272,
+        "boss": "Death Rite Bird",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 271,
+        "boss": "Magma Wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 261,
+        "boss": "Miranda Blossom",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 263,
+        "boss": "Black Knife Assassin",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 270,
+        "boss": "Chief Bloodfiend",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 267,
+        "boss": "Bloodbane Giant Crows",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 269,
+        "boss": "Divine Beast Warrior",
+        "location": "TBD"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [],
+    "march": [],
+    "caravans": [],
+    "temple": [
+      {
+        "poi_id": 277,
+        "boss": "gaping dragon",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "morgott",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "outland commander",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "demi-human queen and swordmaster",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "night's cavalry duo",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "tree sentinel and royal cavalrymen",
+        "location": "TBD"
+      }
+    ],
+    "medium_castle": [
+      {
+        "poi_id": 273,
+        "boss": "divine beast warrior",
+        "location": "TBD"
+      }
+    ],
+    "small_castle": [
+      {
+        "poi_id": 247,
+        "boss": "Golden hippopotamus",
+        "location": "TBD"
+      }
+    ],
+    "extra_night_boss": "empty",
+    "special_events": [],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Grafted Monarch",
+      "poi_id": 265
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Fallingstar Beast",
+      "poi_id": 250
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 281,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [],
+    "day2_location": {
+      "poi_id": 279,
+      "value": "Day 2 Circle"
+    }
+  },
+  {
+    "layout_number": "1040",
+    "nightlord": "Maris",
+    "shifting_earth": "Forsaken Hollows",
+    "churches": [
+      {
+        "poi_id": 245,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 256,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 266,
+        "value": "Church - Normal",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 280,
+        "value": "Church - Normal",
+        "location": "TBD"
+      }
+    ],
+    "sorcerers_rises": [
+      {
+        "poi_id": 260,
+        "value": "Sorcerer's Rise - Pool Reflection",
+        "location": "TBD"
+      }
+    ],
+    "evergaols": [],
+    "forts": [],
+    "ruins": [],
+    "field_bosses": [
+      {
+        "poi_id": 246,
+        "boss": "Black Blade Kindred",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 252,
+        "boss": "Red Wolf",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 264,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 268,
+        "boss": "Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 258,
+        "boss": "Black Knife Assassin",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 262,
+        "boss": "Golden Hippopotamus",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 253,
+        "boss": "Mimic Tears",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 272,
+        "boss": "Leonine Misbegotten",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 271,
+        "boss": "Elder Lion",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 261,
+        "boss": "Royal Revenant",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 263,
+        "boss": "Death Rite Bird",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 270,
+        "boss": "Spider Scorpions",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 267,
+        "boss": "Curseblade",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 269,
+        "boss": "Putrid Avatar",
+        "location": "TBD"
+      }
+    ],
+    "camps": [],
+    "great_churches": [],
+    "blacksmith_town": [],
+    "march": [],
+    "caravans": [],
+    "temple": [
+      {
+        "poi_id": 277,
+        "boss": "centipede demon",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "great wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 277,
+        "boss": "draconic tree sentinel and royal cavalrymen",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "demi-human queen and swordmaster",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "fallingstar beast",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 254,
+        "boss": "outland commander",
+        "location": "TBD"
+      }
+    ],
+    "medium_castle": [
+      {
+        "poi_id": 273,
+        "boss": "cleanrot knights",
+        "location": "TBD"
+      }
+    ],
+    "small_castle": [
+      {
+        "poi_id": 247,
+        "boss": "Golden hippopotamus",
+        "location": "TBD"
+      }
+    ],
+    "extra_night_boss": "empty",
+    "special_events": [],
+    "night1": {
+      "circle_location": "TBD",
+      "boss": "Smelter Demon",
+      "poi_id": 255
+    },
+    "night2": {
+      "circle_location": "TBD",
+      "boss": "Godskin Duo",
+      "poi_id": 250
+    },
+    "townships": [],
+    "spawn_points": [
+      {
+        "poi_id": 276,
+        "value": "Spawn Point",
+        "location": "TBD"
+      }
+    ],
+    "castle": [],
+    "day2_location": {
+      "poi_id": 251,
+      "value": "Day 2 Circle"
+    }
   }
 ]

@@ -28,25 +28,33 @@
 
       dom.iconLayer.innerHTML = '';
       const elementMap = new Map();
-      for (const coord of state.current.slotCoords || []) {
-        const slotId = coord.id;
-        if (!slotId) continue;
-        const el = document.createElement('div');
-        el.classList.add('slot-icon');
-        el.dataset.slotId = slotId;
-        const img = document.createElement('img');
-        img.src =
-          slotId === 'nightlord'
-            ? nightlordIcons.empty || buildingIcons.empty
-            : buildingIcons.empty;
-        img.alt = '';
-        el.appendChild(img);
-        el.addEventListener('click', evt => {
-          evt.stopPropagation();
-          handlers.onSlotClick(slotId);
-        });
-        dom.iconLayer.appendChild(el);
-        elementMap.set(slotId, el);
+
+      // Create DOM elements for every slot ID that exists across ALL map types so
+      // switching between Default and Forsaken Hollows (28 slots) works without
+      // needing to rebuild the DOM.
+      const seen = new Set();
+      const allCoords = state.current.slotCoordsByMapType || {};
+      for (const coords of Object.values(allCoords)) {
+        for (const coord of coords) {
+          if (!coord.id || seen.has(coord.id)) continue;
+          seen.add(coord.id);
+          const el = document.createElement('div');
+          el.classList.add('slot-icon');
+          el.dataset.slotId = coord.id;
+          const img = document.createElement('img');
+          img.src =
+            coord.id === 'nightlord'
+              ? nightlordIcons.empty || buildingIcons.empty
+              : buildingIcons.empty;
+          img.alt = '';
+          el.appendChild(img);
+          el.addEventListener('click', evt => {
+            evt.stopPropagation();
+            handlers.onSlotClick(coord.id);
+          });
+          dom.iconLayer.appendChild(el);
+          elementMap.set(coord.id, el);
+        }
       }
       state.setSlotElements(elementMap);
     }
@@ -113,7 +121,7 @@
       ensureSlotElements();
 
       const {
-        slotCoords,
+        slotCoordsByMapType,
         slotElementById,
         selectionBySlot,
         activeMapType,
@@ -131,6 +139,18 @@
         return;
       }
 
+      // Resolve coords for the active map type, falling back to Default for
+      // Shifting Earth variants that share the Default slot grid.
+      const slotCoords =
+        slotCoordsByMapType?.[activeMapType] ||
+        slotCoordsByMapType?.['Default'] ||
+        [];
+
+      // Hide all slots first, then show only those in the active map's coord set.
+      slotElementById.forEach(el => {
+        el.style.display = 'none';
+      });
+
       hideShiftingEarthThumbs();
       if (dom.mapImage) dom.mapImage.src = mapBackgroundByType[activeMapType] || '';
       for (const coord of slotCoords) {
@@ -144,7 +164,6 @@
           disabledSet instanceof Set &&
           disabledSet.has(Number(slotId))
         ) {
-          el.style.display = 'none';
           continue;
         }
 

@@ -2,6 +2,16 @@
   const namespace = (root.OverlayModules = root.OverlayModules || {});
 
   const SORCERERS_RISE_PREFIX = "Sorcerer's Rise - ";
+  const SORCERERS_RISE_VARIANTS = [
+    'Unlit Candle',
+    'Fog Door',
+    'Missing Statue',
+    'Fake Building',
+    'Windy Trees',
+    'Pool Reflection',
+    'Imp Statue',
+    'Fleeing Stump',
+  ];
   const NIGHTLORD_GROUPS = [
     'Gladius',
     'Adel',
@@ -11,6 +21,8 @@
     'Fulghor',
     'Caligo',
     'Heolstor',
+    'Harmonia',
+    'Straghess',
   ];
 
   let poiList = [];
@@ -84,30 +96,31 @@
 
   function resolveNightlordForSeedId(seedId) {
     const idNum = Number(String(seedId).replace(/^0+/, '')) || 1;
-    const perNightlord = 40;
-    const groupIndex = Math.floor((idNum - 1) / perNightlord);
-    return NIGHTLORD_GROUPS[groupIndex] || null;
+    if (idNum >= 1 && idNum <= 320) {
+      return NIGHTLORD_GROUPS[Math.floor((idNum - 1) / 40)] || null;
+    }
+    if (idNum >= 1001 && idNum <= 1080) {
+      return NIGHTLORD_GROUPS[Math.floor((idNum - 1001) / 10)] || null;
+    }
+    if (idNum >= 1081 && idNum <= 1140) return 'Harmonia';
+    if (idNum >= 1141 && idNum <= 1200) return 'Straghess';
+    return null;
   }
 
   function findSeed(list, seedId) {
     if (!list || seedId === undefined || seedId === null) return null;
-    const idNum = Number(String(seedId).replace(/^0+/, '')) || 1;
-    const perNightlord = 40;
-    const idx = ((idNum - 1) % perNightlord) + 1;
-
+    const idNum = Number(String(seedId).replace(/^0+/, '')) || 0;
     for (const entry of list) {
       const candidateId = entry?.seedId ?? entry?.layout_number;
-      const pNum = Number(String(candidateId).replace(/^0+/, '')) || 1;
-      const pIdx = ((Math.max(1, pNum) - 1) % perNightlord) + 1;
-      if (pIdx === idx) {
-        return entry;
-      }
+      const pNum = Number(String(candidateId).replace(/^0+/, '')) || 0;
+      if (pNum === idNum) return entry;
     }
     return null;
   }
 
   namespace.data = {
     SORCERERS_RISE_PREFIX,
+    SORCERERS_RISE_VARIANTS,
     NIGHTLORD_GROUPS,
     loadPoiData,
     getPoiList: () => poiList,

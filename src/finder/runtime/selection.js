@@ -36,6 +36,8 @@
       'Fulghor',
       'Caligo',
       'Heolstor',
+      'Harmonia',
+      'Straghess',
     ];
 
     function getSlotOptions(slotId, excludeCurrent) {
