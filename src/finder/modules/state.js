@@ -5,11 +5,12 @@
   const state = {
     locale: 'en',
     texts: {},
-    slotCoords: [],
+    slotCoordsByMapType: {},
     seeds: [],
     mapBackgroundByType: {},
     mapThumbOrder: [],
     mapTypeList: [],
+    fieldBossNames: [],
     activeMapType: null,
     selectionBySlot: {},
     candidateSeeds: [],
@@ -35,8 +36,8 @@
     setTexts(value) {
       state.texts = coerceObject(value);
     },
-    setSlotCoords(value) {
-      state.slotCoords = coerceArray(value);
+    setSlotCoordsByMapType(value) {
+      state.slotCoordsByMapType = coerceObject(value);
     },
     setSeeds(value) {
       state.seeds = coerceArray(value);
@@ -49,6 +50,9 @@
     },
     setMapTypeList(value) {
       state.mapTypeList = coerceArray(value);
+    },
+    setFieldBossNames(value) {
+      state.fieldBossNames = coerceArray(value);
     },
     setActiveMapType(value) {
       state.activeMapType = value || null;

@@ -111,6 +111,7 @@
     buildingIcons,
     nightlordIcons,
     excludeCurrent,
+    fieldBossNames,
   }) {
     const baseSeeds = mapType ? filterByMap(seeds, mapType) : [];
     const currentValue = selection?.[slotId] || 'empty';
@@ -129,9 +130,27 @@
       : Array.isArray(buildingIconIds) && buildingIconIds.length > 0
         ? buildingIconIds
         : Object.keys(iconPool || {}).sort();
-    return order
+
+    // Building/nightlord icon options
+    const results = order
       .filter(id => values.has(id))
       .map(id => ({ id, src: iconPool?.[id] || emptyFallback }));
+
+    // Only add field boss options for Forsaken Hollows map
+    // Other maps (Default, Crater, etc.) use 27-slot layout designed for buildings only
+    // FH uses 40-slot layout that includes field boss locations
+    if (!isNightlord && mapType === 'Forsaken Hollows' && Array.isArray(fieldBossNames)) {
+      const hasNonEmptyBuildings = results.some(opt => opt.id !== 'empty');
+      if (!hasNonEmptyBuildings) {
+        for (const bossName of fieldBossNames) {
+          if (values.has(bossName)) {
+            results.push({ id: bossName, src: null });
+          }
+        }
+      }
+    }
+
+    return results;
   }
 
   function deriveCandidateState({ seeds, selection, mapType }) {

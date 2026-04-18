@@ -170,26 +170,71 @@
         border: 1px solid #374151;
         border-radius: 8px;
         padding: 16px;
-        max-width: 480px;
+        max-width: 600px;
         max-height: 80vh;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .modal-section {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .modal-section-title {
+        font-size: 12px;
+        color: #9ca3af;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .icon-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
         gap: 12px;
       }
 
-      #modalContent button {
+      .icon-grid button {
         border: none;
         background: none;
         padding: 0;
         cursor: pointer;
       }
 
-      #modalContent img {
+      .icon-grid img {
         width: 48px;
         height: 48px;
         display: block;
         margin: 0 auto;
+      }
+
+      .boss-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 8px;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+
+      .boss-list button {
+        background: #374151;
+        border: 1px solid #4b5563;
+        border-radius: 4px;
+        padding: 8px 12px;
+        color: #e2e8f0;
+        font-size: 13px;
+        cursor: pointer;
+        text-align: left;
+        transition: all 0.15s;
+      }
+
+      .boss-list button:hover {
+        background: #4b5563;
+        border-color: #6b7280;
       }
     </style>
     <link rel="stylesheet" href="index.css" />

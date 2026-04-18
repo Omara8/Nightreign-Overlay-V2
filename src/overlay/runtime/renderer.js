@@ -8,7 +8,12 @@
 
   function drawLabel(ctx, x, y, text, styleKey, ui, { getStyleColor, wrapLabelText }) {
     if (!ctx || !ui) return;
-    const lines = wrapLabelText ? wrapLabelText(text, 26) : [text];
+    // If text contains explicit newlines, split by them; otherwise use word wrapping
+    const lines = text.includes('\n')
+      ? text.split('\n')
+      : wrapLabelText
+        ? wrapLabelText(text, 26)
+        : [text];
 
     ctx.save();
     ctx.font = `${ui.fontPx}px ui-sans-serif, system-ui`;

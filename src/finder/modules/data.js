@@ -184,6 +184,7 @@
     const rawCoords = (await fetchJson('../assets/data/coordsXY.json', [])) || [];
     const rawSeeds = (await fetchJson('../assets/data/seed_data.json', [])) || [];
     const rawBackgrounds = (await fetchJson('../assets/data/map_backgrounds.json', {})) || {};
+    const fieldBossNames = (await fetchJson('../assets/data/field_boss_names.json', [])) || [];
 
     const mapBackgroundByType = {};
     for (const [type, relPath] of Object.entries(rawBackgrounds)) {
@@ -211,6 +212,7 @@
       mapBackgroundByType,
       mapThumbOrder,
       mapTypeList,
+      fieldBossNames,
     };
   }
 
@@ -238,5 +240,6 @@
     disabledSlotsByMap,
     defaultThumbOrder: DEFAULT_MAP_THUMB_ORDER,
     loadAll,
+    fieldBossNames: [], // Will be populated by loadAll
   };
 })();

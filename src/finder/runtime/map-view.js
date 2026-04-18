@@ -179,17 +179,19 @@
         let src;
         let isGhost = false;
         if (currentValue && currentValue !== 'empty') {
-          src = slotId === 'nightlord' ? nightlordIcons[currentValue] : buildingIcons[currentValue];
-        } else {
-          const options = handlers.getSlotOptions(slotId, false) || [];
-          if (options.length === 2 && options.some(opt => opt.id !== 'empty')) {
-            const ghostOption = options.find(opt => opt.id !== 'empty');
-            if (ghostOption) {
-              src = ghostOption.src;
-              isGhost = true;
-              el.dataset.ghostId = ghostOption.id;
+          if (slotId === 'nightlord') {
+            src = nightlordIcons[currentValue];
+          } else {
+            // Check if it's a building icon or field boss (no icon)
+            src = buildingIcons[currentValue];
+            // If no icon found, it might be a field boss name - use empty icon
+            if (!src) {
+              src = buildingIcons.empty;
             }
           }
+        } else {
+          // Ghost icons disabled - they were showing for slots that aren't 100% consistent
+          // Users should manually select all slots via the picker
         }
         if (!src) {
           src =
@@ -234,20 +236,76 @@
     function openSlotPicker(slotId, options, onSelect) {
       if (!dom.modal || !dom.modalContent) return;
       dom.modalContent.innerHTML = '';
-      options.forEach(opt => {
-        const btn = document.createElement('button');
-        btn.title = opt.id;
-        const img = document.createElement('img');
-        img.src = opt.src;
-        img.alt = opt.id;
-        btn.appendChild(img);
-        btn.addEventListener('click', evt => {
-          evt.stopPropagation();
-          onSelect(opt);
-          closeSlotPicker();
+
+      // Separate building icons from field bosses
+      const buildingOptions = options.filter(opt => opt.src);
+      const bossOptions = options.filter(opt => !opt.src);
+
+      // Determine section title based on slot type
+      const isNightlordSlot = slotId === 'nightlord';
+      const buildingSectionTitle = isNightlordSlot ? 'Nightlords' : 'Buildings';
+
+      // Create building/nightlord icons section
+      if (buildingOptions.length > 0) {
+        const buildingSection = document.createElement('div');
+        buildingSection.className = 'modal-section';
+
+        const buildingTitle = document.createElement('div');
+        buildingTitle.className = 'modal-section-title';
+        buildingTitle.textContent = buildingSectionTitle;
+        buildingSection.appendChild(buildingTitle);
+
+        const iconGrid = document.createElement('div');
+        iconGrid.className = 'icon-grid';
+
+        buildingOptions.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.title = opt.id;
+          const img = document.createElement('img');
+          img.src = opt.src;
+          img.alt = opt.id;
+          btn.appendChild(img);
+          btn.addEventListener('click', evt => {
+            evt.stopPropagation();
+            onSelect(opt);
+            closeSlotPicker();
+          });
+          iconGrid.appendChild(btn);
         });
-        dom.modalContent.appendChild(btn);
-      });
+
+        buildingSection.appendChild(iconGrid);
+        dom.modalContent.appendChild(buildingSection);
+      }
+
+      // Create field bosses section
+      if (bossOptions.length > 0) {
+        const bossSection = document.createElement('div');
+        bossSection.className = 'modal-section';
+
+        const bossTitle = document.createElement('div');
+        bossTitle.className = 'modal-section-title';
+        bossTitle.textContent = 'Field Bosses';
+        bossSection.appendChild(bossTitle);
+
+        const bossList = document.createElement('div');
+        bossList.className = 'boss-list';
+
+        bossOptions.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.textContent = opt.id;
+          btn.title = opt.id;
+          btn.addEventListener('click', evt => {
+            evt.stopPropagation();
+            onSelect(opt);
+            closeSlotPicker();
+          });
+          bossList.appendChild(btn);
+        });
+
+        bossSection.appendChild(bossList);
+        dom.modalContent.appendChild(bossSection);
+      }
+
       dom.modal.style.display = 'flex';
       dom.modal.onclick = evt => {
         if (evt.target === dom.modal) {

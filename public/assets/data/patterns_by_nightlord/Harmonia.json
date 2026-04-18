@@ -6610,7 +6610,7 @@
     "special_events": [],
     "night1": {
       "circle_location": "TBD",
-      "boss": "curseblade and divine warrior",
+      "boss": "Curseblade and Divine Beast Warrior",
       "poi_id": 274
     },
     "night2": {
@@ -9789,7 +9789,7 @@
       },
       {
         "poi_id": 271,
-        "boss": "death rite birds",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       },
       {
@@ -10007,7 +10007,7 @@
       },
       {
         "poi_id": 267,
-        "boss": "cursebade",
+        "boss": "Curseblade",
         "location": "TBD"
       },
       {
@@ -10434,7 +10434,7 @@
       },
       {
         "poi_id": 126,
-        "boss": "headless troll",
+        "boss": "Headless Troll",
         "location": "TBD"
       },
       {
@@ -10622,7 +10622,7 @@
       },
       {
         "poi_id": 126,
-        "boss": "headless troll",
+        "boss": "Headless Troll",
         "location": "TBD"
       },
       {
@@ -10804,7 +10804,7 @@
       },
       {
         "poi_id": 126,
-        "boss": "headless troll",
+        "boss": "Headless Troll",
         "location": "TBD"
       },
       {
@@ -10997,7 +10997,7 @@
       },
       {
         "poi_id": 126,
-        "boss": "headless troll",
+        "boss": "Headless Troll",
         "location": "TBD"
       },
       {
@@ -11197,7 +11197,7 @@
       },
       {
         "poi_id": 126,
-        "boss": "headless troll",
+        "boss": "Headless Troll",
         "location": "TBD"
       },
       {

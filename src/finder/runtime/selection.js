@@ -8,6 +8,10 @@
 
     const { buildingIcons, nightlordIcons, buildingIconIds } = data;
 
+    function getFieldBossNames() {
+      return state.current.fieldBossNames || [];
+    }
+
     const resolveSeedMapType = seed => {
       if (filtering?.resolveSeedMapType) {
         return filtering.resolveSeedMapType(seed);
@@ -51,6 +55,7 @@
           buildingIcons,
           nightlordIcons,
           excludeCurrent,
+          fieldBossNames: state.current.fieldBossNames,
         });
         if (slotId !== 'nightlord') return opts;
         const currentVal = (state.current.selectionBySlot || {})[slotId] || 'empty';
@@ -119,9 +124,23 @@
       } else {
         order = buildingIconIds;
       }
-      return order
+
+      // Add building icon options
+      const results = order
         .filter(id => validIds.has(id))
         .map(id => ({ id, src: iconsPool[id] || buildingIcons.empty }));
+
+      // Add field boss options (as text, no src)
+      if (slotId !== 'nightlord') {
+        const fieldBosses = getFieldBossNames();
+        for (const bossName of fieldBosses) {
+          if (validIds.has(bossName)) {
+            results.push({ id: bossName, src: null });
+          }
+        }
+      }
+
+      return results;
     }
 
     function applySelections() {

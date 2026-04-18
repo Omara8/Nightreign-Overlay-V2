@@ -103,11 +103,12 @@
       return null;
     }
 
-    state.setSlotCoords(payload.slotCoords);
+    state.setSlotCoordsByMapType(payload.slotCoordsByMapType);
     state.setSeeds(payload.seeds);
     state.setMapBackgroundByType(payload.mapBackgroundByType);
     state.setMapThumbOrder(payload.mapThumbOrder);
     state.setMapTypeList(payload.mapTypeList);
+    state.setFieldBossNames(payload.fieldBossNames);
 
     view.buildMapButtons(type => selection.selectMap(type));
     view.ensureSlotElements();

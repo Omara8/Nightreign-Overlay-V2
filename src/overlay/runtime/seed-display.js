@@ -75,6 +75,16 @@
       addLabel(seedData.night2.poi_id, `${nightTwo}: ${bossName}`, 'night');
     }
 
+    // Day 2 Circle location (Forsaken Hollows only)
+    if (seedData.day2_location) {
+      const poiId = typeof seedData.day2_location === 'object'
+        ? seedData.day2_location.poi_id
+        : seedData.day2_location;
+      if (poiId) {
+        addLabel(poiId, 'Night 2 Circle', 'night');
+      }
+    }
+
     derivePoiLabels(seedData.evergaols, 'evergaol', entry => {
       const raw = normalizeLabel(entry?.boss);
       if (!raw) return '';
@@ -110,6 +120,34 @@
       if (!raw) return '';
       return o18n && typeof o18n.bossLabel === 'function' ? o18n.bossLabel('castle', raw) : raw;
     });
+
+    // Group temple bosses by POI ID and display as multi-line labels
+    if (Array.isArray(seedData.temple) && seedData.temple.length > 0) {
+      const templeByPoi = {};
+      for (const entry of seedData.temple) {
+        if (!entry || !entry.poi_id || !entry.boss) continue;
+        const poiId = entry.poi_id;
+        if (!templeByPoi[poiId]) {
+          templeByPoi[poiId] = [];
+        }
+        const bossName = normalizeLabel(entry.boss);
+        if (bossName) {
+          const translatedBoss =
+            o18n && typeof o18n.bossLabel === 'function'
+              ? o18n.bossLabel('temple', bossName)
+              : bossName;
+          templeByPoi[poiId].push(translatedBoss);
+        }
+      }
+
+      // Create multi-line labels for each temple POI
+      for (const [poiId, bosses] of Object.entries(templeByPoi)) {
+        if (bosses.length > 0) {
+          const multiLineText = bosses.join('\n');
+          addLabel(Number(poiId), multiLineText, 'temple');
+        }
+      }
+    }
 
     const afterDash = s => {
       if (typeof s !== 'string') return s;

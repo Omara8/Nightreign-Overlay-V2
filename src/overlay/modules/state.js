@@ -87,6 +87,12 @@
       colorPref: 'overlay_color_castle_boss',
       defaultColor: '#10b981',
     },
+    {
+      key: 'temple',
+      visiblePref: 'overlay_showTemple',
+      colorPref: 'overlay_color_temple',
+      defaultColor: '#22d3ee',
+    },
   ];
 
   const STYLE_PREF_KEY_SET = new Set();
