@@ -97,23 +97,48 @@
     });
 
     const extraBoss = normalizeLabel(seedData.extra_night_boss);
-    derivePoiLabels(seedData.special_events, 'event', event => {
+    const nightlordName = normalizeLabel(seedData.nightlord);
+
+    // Build event text per POI, excluding POI 214 (reserved for nightlord label)
+    const eventTextByPoi = {};
+    for (const event of (seedData.special_events || [])) {
+      if (!event || !event.poi_id) continue;
       const baseRaw = normalizeLabel(event?.event);
-      if (!baseRaw && !extraBoss) return '';
+      if (!baseRaw && !extraBoss) continue;
       const baseLabel = baseRaw
         ? o18n && typeof o18n.eventLabel === 'function'
           ? o18n.eventLabel(baseRaw)
           : baseRaw
         : '';
+      let eventText;
       if (extraBoss) {
         const extraLabel =
           o18n && typeof o18n.bossLabel === 'function'
             ? o18n.bossLabel('night', extraBoss)
             : extraBoss;
-        return baseLabel ? `${baseLabel} - ${extraLabel}` : extraLabel;
+        eventText = baseLabel ? `${baseLabel} - ${extraLabel}` : extraLabel;
+      } else {
+        eventText = baseLabel;
       }
-      return baseLabel;
-    });
+      if (eventText) {
+        eventTextByPoi[event.poi_id] = eventTextByPoi[event.poi_id]
+          ? `${eventTextByPoi[event.poi_id]}\n${eventText}`
+          : eventText;
+      }
+    }
+
+    // Always render nightlord at POI 214; append any event at that POI below it
+    if (nightlordName) {
+      const nightlordLabel = `Nightlord: ${nightlordName}`;
+      const eventAt214 = eventTextByPoi[214];
+      addLabel(214, eventAt214 ? `${nightlordLabel}\n${eventAt214}` : nightlordLabel, 'event');
+      delete eventTextByPoi[214];
+    }
+
+    // Render any remaining special events at their own POIs
+    for (const [poiId, text] of Object.entries(eventTextByPoi)) {
+      addLabel(Number(poiId), text, 'event');
+    }
 
     derivePoiLabels(seedData.castle, 'castle-boss', entry => {
       const raw = normalizeLabel(entry?.boss);

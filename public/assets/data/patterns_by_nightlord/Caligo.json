@@ -9034,7 +9034,7 @@
   {
     "layout_number": "276",
     "nightlord": "Caligo",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -9307,7 +9307,7 @@
   {
     "layout_number": "277",
     "nightlord": "Caligo",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -9567,7 +9567,7 @@
   {
     "layout_number": "278",
     "nightlord": "Caligo",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -9844,7 +9844,7 @@
   {
     "layout_number": "279",
     "nightlord": "Caligo",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -10118,7 +10118,7 @@
   {
     "layout_number": "280",
     "nightlord": "Caligo",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -10424,7 +10424,7 @@
         "event": "Day 1 Balancers Raid",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "extra_night_boss": "empty",
@@ -10880,7 +10880,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -11678,7 +11678,7 @@
         "event": "Day 1 Balancers Raid",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -12067,7 +12067,7 @@
         "event": "Day 2 Libra Curse",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -12264,7 +12264,7 @@
         "event": "Day 1 Maris Bubbles",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {

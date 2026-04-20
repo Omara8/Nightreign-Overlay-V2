@@ -9027,7 +9027,7 @@
   {
     "layout_number": "36",
     "nightlord": "Gladius",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -9301,7 +9301,7 @@
   {
     "layout_number": "37",
     "nightlord": "Gladius",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -9567,7 +9567,7 @@
   {
     "layout_number": "38",
     "nightlord": "Gladius",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -9830,7 +9830,7 @@
   {
     "layout_number": "39",
     "nightlord": "Gladius",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -10101,7 +10101,7 @@
   {
     "layout_number": "40",
     "nightlord": "Gladius",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -10417,7 +10417,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "extra_night_boss": "empty",
@@ -11122,7 +11122,7 @@
         "event": "Day 1 Caligo Blizzard\\",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -11653,7 +11653,7 @@
         "event": "Day 1 Balancers Raid",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -11822,7 +11822,7 @@
       },
       {
         "poi_id": 254,
-        "boss": "Tree Sentinel and Royal Cavalry Men",
+        "boss": "Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       }
     ],
@@ -11992,12 +11992,12 @@
       },
       {
         "poi_id": 277,
-        "boss": "Nights Cavalry Duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "Dancer of The Boreal Valley",
+        "boss": "Dancer of the Boreal Valley",
         "location": "TBD"
       },
       {
@@ -12036,7 +12036,7 @@
         "event": "Day 1 Caligo Blizzard",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -12184,7 +12184,7 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "Nights Cavalry Duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
@@ -12233,7 +12233,7 @@
         "event": "Day 1 Frenzy Tower",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -12390,7 +12390,7 @@
       },
       {
         "poi_id": 254,
-        "boss": "Nights Cavalry Duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {

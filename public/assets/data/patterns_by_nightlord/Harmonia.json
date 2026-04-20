@@ -185,7 +185,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -336,7 +336,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -360,7 +360,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -521,7 +521,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -545,7 +545,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -724,7 +724,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -897,7 +897,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -1070,7 +1070,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -1215,7 +1215,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -1239,7 +1239,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -1419,7 +1419,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -1579,7 +1579,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -1603,7 +1603,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -1764,7 +1764,7 @@
         "event": "Day 1 Caligo Blizzard",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -1788,7 +1788,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -1966,7 +1966,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -2145,7 +2145,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knight",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -2311,7 +2311,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -2335,7 +2335,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -2520,7 +2520,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -2676,7 +2676,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -2700,7 +2700,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -2861,7 +2861,7 @@
         "event": "Day 1 Caligo Blizzard",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -2891,7 +2891,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -3082,7 +3082,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -3255,7 +3255,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -3416,7 +3416,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -3446,7 +3446,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -3629,7 +3629,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -3795,7 +3795,7 @@
         "event": "Day 2 Night Horde",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -3819,7 +3819,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -3980,7 +3980,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -4010,7 +4010,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -4171,7 +4171,7 @@
         "event": "Day 1 Extra Night Boss",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -4201,7 +4201,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -4379,7 +4379,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -4562,7 +4562,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -4603,7 +4603,7 @@
     "evergaols": [
       {
         "poi_id": 82,
-        "boss": "crucible with sword",
+        "boss": "Crucible Knight with Sword",
         "location": "Northwest of Lake"
       },
       {
@@ -4717,7 +4717,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -4747,7 +4747,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -4926,7 +4926,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -5098,7 +5098,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -5270,7 +5270,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -5444,7 +5444,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -5619,7 +5619,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -5643,7 +5643,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -5818,7 +5818,7 @@
         "event": "Day 1 Gladius Invasion",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -5842,7 +5842,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -6040,7 +6040,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "banished knights",
+        "boss": "Banished Knights",
         "location": "TBD"
       }
     ]
@@ -6232,7 +6232,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "crucible knights",
+        "boss": "Crucible Knights",
         "location": "TBD"
       }
     ]
@@ -6437,7 +6437,7 @@
     "castle": [
       {
         "poi_id": 159,
-        "boss": "trolls",
+        "boss": "Trolls",
         "location": "TBD"
       }
     ]
@@ -6563,32 +6563,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "the duke's dear freja",
+        "boss": "The Duke's Dear Freja",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "death rite bird",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "crucible knight and golden hippopotamus",
+        "boss": "Crucible Knight and Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -6602,7 +6602,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -6754,32 +6754,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "death rite bird",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "outland commander",
+        "boss": "Outland Commander",
         "location": "TBD"
       }
     ],
@@ -6793,7 +6793,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -6803,7 +6803,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -6952,32 +6952,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "crucible knight and golden hippopotamus",
+        "boss": "Crucible Knight and Golden Hippopotamus",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "draconic tree sentinel and royal cavalrymen",
+        "boss": "Draconic Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       }
     ],
@@ -6991,7 +6991,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -7001,7 +7001,7 @@
         "event": "Day 1 Frenzy Tower",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -7150,32 +7150,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "gaping dragon",
+        "boss": "Gaping Dragon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "bell bearing hunter",
+        "boss": "Bell Bearing Hunter",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -7189,7 +7189,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -7342,32 +7342,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "smelter demon",
+        "boss": "Smelter Demon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "demi-human queen and swordmaster",
+        "boss": "Demi-Human Queen and Swordmaster",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "bell bearing hunter",
+        "boss": "Bell Bearing Hunter",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dancer of the boreal valley",
+        "boss": "Dancer of the Boreal Valley",
         "location": "TBD"
       }
     ],
@@ -7381,7 +7381,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -7391,7 +7391,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -7534,46 +7534,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "death rite bird",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dancer of the boreal valley",
+        "boss": "Dancer of the Boreal Valley",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -7583,7 +7583,7 @@
         "event": "Day 1 Extra Night Boss",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -7732,46 +7732,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "demi-human queen and swordmaster",
+        "boss": "Demi-Human Queen and Swordmaster",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dancer of the boreal valley",
+        "boss": "Dancer of the Boreal Valley",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -7917,46 +7917,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -8102,32 +8102,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "demi-human queen and swordmaster",
+        "boss": "Demi-Human Queen and Swordmaster",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "outland commander",
+        "boss": "Outland Commander",
         "location": "TBD"
       }
     ],
@@ -8141,7 +8141,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -8287,32 +8287,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "death rite bird",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "draconic tree sentinel and royal cavalrymen",
+        "boss": "Draconic Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       }
     ],
@@ -8326,7 +8326,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -8336,7 +8336,7 @@
         "event": "Day 1 Frenzy Tower",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -8479,46 +8479,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "smelter demon",
+        "boss": "Smelter Demon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "tree sentinel and royal cavalrymen",
+        "boss": "Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -8528,7 +8528,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -8677,32 +8677,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "gaping dragon",
+        "boss": "Gaping Dragon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       }
     ],
@@ -8716,7 +8716,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -8726,7 +8726,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -8869,46 +8869,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "centipede demon",
+        "boss": "Centipede Demon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "tree sentinel and royal cavalrymen",
+        "boss": "Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9060,46 +9060,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "bell bearing hunter",
+        "boss": "Bell Bearing Hunter",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9251,46 +9251,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "gaping dragon",
+        "boss": "Gaping Dragon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "outland commander",
+        "boss": "Outland Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "draconic tree sentinel and royal cavalrymen",
+        "boss": "Draconic Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9300,7 +9300,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -9443,46 +9443,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "smelter demon",
+        "boss": "Smelter Demon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "dancer of the boreal valley",
+        "boss": "Dancer of the Boreal Valley",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "tree sentinel and royal cavalrymen",
+        "boss": "Tree Sentinel and Royal Cavalrymen",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9628,32 +9628,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "night's cavalry duo",
+        "boss": "Night's Cavalry Duo",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "dragonkin soldier",
+        "boss": "Dragonkin Soldier",
         "location": "TBD"
       }
     ],
@@ -9667,7 +9667,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9677,7 +9677,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -9826,46 +9826,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "royal revenant",
+        "boss": "Royal Revenant",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "crucible knight and golden hippopotamus",
+        "boss": "Crucible Knight and Golden Hippopotamus",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "bell bearing hunter",
+        "boss": "Bell Bearing Hunter",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "battlefield commander",
+        "boss": "Battlefield Commander",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -9875,7 +9875,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -10024,32 +10024,32 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "ulcerated tree spirit",
+        "boss": "Ulcerated Tree Spirit",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "valiant gargoyle",
+        "boss": "Valiant Gargoyle",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "crucible knight and golden hippopotamus",
+        "boss": "Crucible Knight and Golden Hippopotamus",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "demi-human queen and swordmaster",
+        "boss": "Demi-Human Queen and Swordmaster",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "bell bearing hunter",
+        "boss": "Bell Bearing Hunter",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "great wyrm",
+        "boss": "Great Wyrm",
         "location": "TBD"
       }
     ],
@@ -10063,7 +10063,7 @@
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Godskin duo",
+        "boss": "Godskin Duo",
         "location": "TBD"
       }
     ],
@@ -10073,7 +10073,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -10222,46 +10222,46 @@
     "temple": [
       {
         "poi_id": 277,
-        "boss": "smelter demon",
+        "boss": "Smelter Demon",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "fallingstar beast",
+        "boss": "Fallingstar Beast",
         "location": "TBD"
       },
       {
         "poi_id": 277,
-        "boss": "morgott",
+        "boss": "Morgott",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "demi-human queen and swordmaster",
+        "boss": "Demi-Human Queen and Swordmaster",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "grafted monarch",
+        "boss": "Grafted Monarch",
         "location": "TBD"
       },
       {
         "poi_id": 254,
-        "boss": "death rite bird",
+        "boss": "Death Rite Bird",
         "location": "TBD"
       }
     ],
     "medium_castle": [
       {
         "poi_id": 273,
-        "boss": "divine beast warrior",
+        "boss": "Divine Beast Warrior",
         "location": "TBD"
       }
     ],
     "small_castle": [
       {
         "poi_id": 247,
-        "boss": "Golden hippopotamus",
+        "boss": "Golden Hippopotamus",
         "location": "TBD"
       }
     ],
@@ -10271,7 +10271,7 @@
         "event": "Day 1 Caligo Blizzard",
         "night": 1,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -10307,7 +10307,7 @@
   {
     "layout_number": "1136",
     "nightlord": "Harmonia",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -10464,7 +10464,7 @@
         "event": "Day 2 Gladius Invasion",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -10490,7 +10490,7 @@
   {
     "layout_number": "1137",
     "nightlord": "Harmonia",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -10543,7 +10543,7 @@
       },
       {
         "poi_id": 80,
-        "boss": "crystalians",
+        "boss": "Crystalians",
         "location": "Mistwood"
       },
       {
@@ -10677,7 +10677,7 @@
   {
     "layout_number": "1138",
     "nightlord": "Harmonia",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 33,
@@ -10865,7 +10865,7 @@
   {
     "layout_number": "1139",
     "nightlord": "Harmonia",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 34,
@@ -10923,7 +10923,7 @@
       },
       {
         "poi_id": 81,
-        "boss": "crystalians",
+        "boss": "Crystalians",
         "location": "East of Lake"
       }
     ],
@@ -11033,7 +11033,7 @@
         "event": "Day 2 Caligo Blizzard",
         "night": 2,
         "location": "TBD",
-        "poi_id": 0
+        "poi_id": 214
       }
     ],
     "night1": {
@@ -11065,7 +11065,7 @@
   {
     "layout_number": "1140",
     "nightlord": "Harmonia",
-    "shifting_earth": "Noklateo",
+    "shifting_earth": "Noklateo, the Shrouded City",
     "churches": [
       {
         "poi_id": 206,
@@ -11103,7 +11103,7 @@
       },
       {
         "poi_id": 77,
-        "boss": "crystalians",
+        "boss": "Crystalians",
         "location": "Highroad"
       },
       {
