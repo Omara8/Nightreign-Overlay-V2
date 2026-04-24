@@ -145,6 +145,16 @@
       if (!raw) return '';
       return o18n && typeof o18n.bossLabel === 'function' ? o18n.bossLabel('castle', raw) : raw;
     });
+    derivePoiLabels(seedData.small_castle, 'castle-boss', entry => {
+      const raw = normalizeLabel(entry?.boss);
+      if (!raw) return '';
+      return o18n && typeof o18n.bossLabel === 'function' ? o18n.bossLabel('castle', raw) : raw;
+    });
+    derivePoiLabels(seedData.medium_castle, 'castle-boss', entry => {
+      const raw = normalizeLabel(entry?.boss);
+      if (!raw) return '';
+      return o18n && typeof o18n.bossLabel === 'function' ? o18n.bossLabel('castle', raw) : raw;
+    });
 
     // Group temple bosses by POI ID and display as multi-line labels
     if (Array.isArray(seedData.temple) && seedData.temple.length > 0) {

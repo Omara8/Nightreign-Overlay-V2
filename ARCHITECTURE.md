@@ -683,7 +683,16 @@ The UI is vanilla JS + DOM. This keeps the bundle small, startup fast, and avoid
 This avoids loading the full rich data for all 520 seeds upfront, while keeping filtering fast.
 
 ### Slot ID ↔ POI ID Relationship
-Slot IDs in `coordsXY.json` use pixel coordinates that correspond 1:1 to POI UV coordinates when normalized. POI `N` has UV `[x/1000, y/1000]` where `(x, y)` is the pixel coordinate of the matching slot. This was by design — POI IDs and slot positions are kept consistent during data authoring.
+Each slot in `coordsXY.json` maps to exactly one POI in `poi_uv_with_ids.json`. The relationship differs by map type:
+
+- **Forsaken Hollows** — exact 1:1 correspondence. Every slot pixel `(x, y)` equals POI UV `[x/1000, y/1000]` with 0 px deviation. The formula is `poi_id = slot_number + 244` (slots 01–40 → POIs 245–284).
+- **Default grid** (Default, Mountaintop, Crater, Rotted Woods, Noklateo) — approximate correspondence. Slot coordinates were placed manually near their POI's map landmark; deviations range from 2 px to ~35 px. The full slot ↔ POI lookup table is documented in `docs/poi_slot_mapping.md`.
+
+The Default map uses two POI type groups:
+- **Church-type** (POIs 28–37, 106) — locations that can be churches, sorcerers' rises, spawn points, caravans, or townships depending on the layout.
+- **Ruins-type** (POIs 93–108, 215) — locations that can be ruins, forts, camps, great churches, marches, or blacksmith towns.
+
+Several Default POIs had near-duplicate entries that have been collapsed into canonical IDs. The retired IDs and their replacements are listed in `public/assets/data/poi_proximity_groups_default.md`. All pattern files in `patterns_by_nightlord/` use only the canonical IDs.
 
 ### No Scoring / Fuzzy Matching
 All filtering is exact string equality. This is intentional — game seed data is deterministic and known in advance, so there is no need for probabilistic approaches.

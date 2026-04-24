@@ -260,7 +260,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "Stormhill South of Gate"
       }
@@ -532,7 +532,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "Stormhill South of Gate"
       }
@@ -781,7 +781,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 207,
+        "poi_id": 31,
         "value": "Spawn Point",
         "location": "Far Southwest"
       }
@@ -1045,7 +1045,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "Southeast of Lake"
       }
@@ -1304,7 +1304,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "Stormhill South of Gate"
       }
@@ -1563,7 +1563,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 201,
+        "poi_id": 29,
         "value": "Spawn Point",
         "location": "East of Cavalry Bridge"
       }
@@ -1814,7 +1814,7 @@
         "location": "Southeast of Lake"
       },
       {
-        "poi_id": 157,
+        "poi_id": 106,
         "value": "Small Camp - Caravans",
         "location": "Minor Erdtree"
       }
@@ -1828,7 +1828,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 209,
+        "poi_id": 33,
         "value": "Spawn Point",
         "location": "West of Warmaster's Shack"
       }
@@ -2093,7 +2093,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Spawn Point",
         "location": "Minor Erdtree"
       }
@@ -2365,7 +2365,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 207,
+        "poi_id": 31,
         "value": "Spawn Point",
         "location": "Far Southwest"
       }
@@ -2625,7 +2625,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Spawn Point",
         "location": "Above Stormhill Tunnel Entrance"
       }
@@ -2884,7 +2884,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 208,
+        "poi_id": 35,
         "value": "Spawn Point",
         "location": "Northeast of Saintsbridge"
       }
@@ -3125,7 +3125,7 @@
     ],
     "caravans": [
       {
-        "poi_id": 157,
+        "poi_id": 106,
         "value": "Small Camp - Caravans",
         "location": "Minor Erdtree"
       }
@@ -3139,7 +3139,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "Southeast of Lake"
       }
@@ -3398,7 +3398,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 208,
+        "poi_id": 35,
         "value": "Spawn Point",
         "location": "Northeast of Saintsbridge"
       }
@@ -3657,7 +3657,7 @@
     ],
     "caravans": [
       {
-        "poi_id": 157,
+        "poi_id": 106,
         "value": "Small Camp - Caravans",
         "location": "Minor Erdtree"
       }
@@ -3665,7 +3665,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 201,
+        "poi_id": 29,
         "value": "Spawn Point",
         "location": "East of Cavalry Bridge"
       }
@@ -3923,7 +3923,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Spawn Point",
         "location": "Minor Erdtree"
       }
@@ -4180,7 +4180,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 201,
+        "poi_id": 29,
         "value": "Spawn Point",
         "location": "East of Cavalry Bridge"
       }
@@ -4440,7 +4440,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -4713,7 +4713,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Spawn Point",
         "location": "Above Stormhill Tunnel Entrance"
       }
@@ -4971,14 +4971,14 @@
     ],
     "townships": [
       {
-        "poi_id": 157,
+        "poi_id": 106,
         "value": "Township - Township",
         "location": "Minor Erdtree"
       }
     ],
     "spawn_points": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Spawn Point",
         "location": "Above Stormhill Tunnel Entrance"
       }
@@ -5250,7 +5250,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Spawn Point",
         "location": "Above Stormhill Tunnel Entrance"
       }
@@ -5524,7 +5524,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -5798,7 +5798,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -6053,7 +6053,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -6313,7 +6313,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Spawn Point",
         "location": "Minor Erdtree"
       }
@@ -6568,7 +6568,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -6826,7 +6826,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Spawn Point",
         "location": "Minor Erdtree"
       }
@@ -7082,7 +7082,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "Southeast of Lake"
       }
@@ -7348,7 +7348,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "Southeast of Lake"
       }
@@ -7613,7 +7613,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 201,
+        "poi_id": 29,
         "value": "Spawn Point",
         "location": "East of Cavalry Bridge"
       }
@@ -7870,7 +7870,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "Stormhill South of Gate"
       }
@@ -8105,7 +8105,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 207,
+        "poi_id": 31,
         "value": "Spawn Point",
         "location": "Far Southwest"
       }
@@ -8347,7 +8347,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 207,
+        "poi_id": 31,
         "value": "Spawn Point",
         "location": "Far Southwest"
       }
@@ -8570,7 +8570,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 208,
+        "poi_id": 35,
         "value": "Spawn Point",
         "location": "Northeast of Saintsbridge"
       }
@@ -8799,7 +8799,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 209,
+        "poi_id": 33,
         "value": "Spawn Point",
         "location": "West of Warmaster's Shack"
       }
@@ -9035,7 +9035,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -9308,14 +9308,14 @@
     ],
     "townships": [
       {
-        "poi_id": 157,
+        "poi_id": 106,
         "value": "Township - Township",
         "location": "Minor Erdtree"
       }
     ],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "Below Summonwater Hawk"
       }
@@ -9589,7 +9589,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 201,
+        "poi_id": 29,
         "value": "Spawn Point",
         "location": "East of Cavalry Bridge"
       }
@@ -9859,7 +9859,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 209,
+        "poi_id": 33,
         "value": "Spawn Point",
         "location": "West of Warmaster's Shack"
       }
@@ -10131,7 +10131,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "Southeast of Lake"
       }
@@ -10402,7 +10402,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Spawn Point",
         "location": "Above Stormhill Tunnel Entrance"
       }
@@ -10419,7 +10419,7 @@
         "location": "Southeast of Lake"
       },
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Church - Normal",
         "location": "TBD"
       },
@@ -10431,7 +10431,7 @@
     ],
     "sorcerers_rises": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Sorcerer's Rise - Fleeing Stump",
         "location": "TBD"
       }
@@ -10650,14 +10650,14 @@
     },
     "townships": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Township - Township",
         "location": "TBD"
       }
     ],
     "spawn_points": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Spawn Point",
         "location": "TBD"
       }
@@ -10693,7 +10693,7 @@
     ],
     "sorcerers_rises": [
       {
-        "poi_id": 208,
+        "poi_id": 35,
         "value": "Sorcerer's Rise - Withered Trees",
         "location": "TBD"
       }
@@ -10911,14 +10911,14 @@
     },
     "townships": [
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Township - Township",
         "location": "TBD"
       }
     ],
     "spawn_points": [
       {
-        "poi_id": 207,
+        "poi_id": 31,
         "value": "Spawn Point",
         "location": "TBD"
       }
@@ -10964,7 +10964,7 @@
         "location": "TBD"
       },
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Sorcerer's Rise - Windy Trees",
         "location": "TBD"
       },
@@ -11165,7 +11165,7 @@
     ],
     "caravans": [
       {
-        "poi_id": 204,
+        "poi_id": 36,
         "value": "Small Camp - Caravans",
         "location": "TBD"
       }
@@ -11201,7 +11201,7 @@
     ],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "TBD"
       }
@@ -11237,12 +11237,12 @@
     ],
     "sorcerers_rises": [
       {
-        "poi_id": 209,
+        "poi_id": 33,
         "value": "Sorcerer's Rise - Fleeing Stump",
         "location": "TBD"
       },
       {
-        "poi_id": 206,
+        "poi_id": 106,
         "value": "Sorcerer's Rise - Fake Building",
         "location": "TBD"
       }
@@ -11438,7 +11438,7 @@
     ],
     "caravans": [
       {
-        "poi_id": 202,
+        "poi_id": 34,
         "value": "Small Camp - Caravans",
         "location": "TBD"
       }
@@ -11468,7 +11468,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 203,
+        "poi_id": 32,
         "value": "Spawn Point",
         "location": "TBD"
       }
@@ -11717,7 +11717,7 @@
     "townships": [],
     "spawn_points": [
       {
-        "poi_id": 205,
+        "poi_id": 28,
         "value": "Spawn Point",
         "location": "TBD"
       }
