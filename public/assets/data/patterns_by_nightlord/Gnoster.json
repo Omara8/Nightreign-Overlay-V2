@@ -12373,7 +12373,13 @@
       "boss": "Dragonkin Soldier",
       "poi_id": 250
     },
-    "townships": [],
+    "townships": [
+      {
+        "poi_id": 283,
+        "value": "Township - Township",
+        "location": "TBD"
+      }
+    ],
     "spawn_points": [
       {
         "poi_id": 248,

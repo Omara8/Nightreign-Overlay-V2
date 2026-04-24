@@ -1,6 +1,6 @@
 {
   "name": "nightreign-overlay",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Desktop overlay & seed finder for Elden Ring: Nightreign.",
   "author": "Fahid Shah & Omara",
   "private": true,
@@ -15,7 +15,7 @@
     "electron-builder": "26.0.12"
   },
   "build": {
-    "appId": "com.fahid.nightreign.overlay",
+    "appId": "com.omara.nightreign.overlay",
     "productName": "Nightreign Overlay",
     "electronLanguages": [
       "en-US"
