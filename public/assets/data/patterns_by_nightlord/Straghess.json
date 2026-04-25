@@ -5504,6 +5504,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1001,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Ancestor Spirit",
         "location": "Castle Rooftop"
@@ -5703,6 +5708,11 @@
     "forts": [],
     "ruins": [],
     "field_bosses": [
+      {
+        "poi_id": 1003,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
       {
         "poi_id": 158,
         "boss": "Death Rite Bird",
@@ -5904,6 +5914,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Ancestor Spirit",
         "location": "Castle Rooftop"
@@ -6103,6 +6118,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1003,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Bell Bearing Hunter",
         "location": "Castle Rooftop"
@@ -6301,6 +6321,11 @@
     "forts": [],
     "ruins": [],
     "field_bosses": [
+      {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
       {
         "poi_id": 158,
         "boss": "Magma Wyrm",

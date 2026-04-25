@@ -7925,6 +7925,11 @@
     ],
     "field_bosses": [
       {
+        "poi_id": 1003,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Royal Carian Knight",
         "location": "Castle Rooftop"
@@ -7983,6 +7988,46 @@
         "poi_id": 23,
         "boss": "Black Knife Assassin",
         "location": "Castle Basement"
+      },
+      {
+        "poi_id": 150,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 217,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 219,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 222,
+        "boss": "Magma Wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 216,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 218,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 220,
+        "boss": "Bell Bearing Hunter",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 221,
+        "boss": "Tree Sentinel",
+        "location": "TBD"
       }
     ],
     "castle": [
@@ -8159,6 +8204,11 @@
     ],
     "field_bosses": [
       {
+        "poi_id": 1001,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Death Rite Bird",
         "location": "Castle Rooftop"
@@ -8217,6 +8267,46 @@
         "poi_id": 23,
         "boss": "Leonine Misbegotten",
         "location": "Castle Basement"
+      },
+      {
+        "poi_id": 150,
+        "boss": "Bell Bearing Hunter",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 217,
+        "boss": "Draconic Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 219,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 222,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 216,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 218,
+        "boss": "Black Blade Kindred",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 220,
+        "boss": "Magma Wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 221,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
       }
     ],
     "castle": [
@@ -8402,6 +8492,11 @@
     ],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Black Blade Kindred",
         "location": "Castle Rooftop"
@@ -8460,6 +8555,46 @@
         "poi_id": 23,
         "boss": "Leonine Misbegotten",
         "location": "Castle Basement"
+      },
+      {
+        "poi_id": 150,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 217,
+        "boss": "Magma Wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 219,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 222,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 216,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 218,
+        "boss": "Royal Carian Knight",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 220,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 221,
+        "boss": "Tree Sentinel",
+        "location": "TBD"
       }
     ],
     "castle": [
@@ -8639,6 +8774,11 @@
     ],
     "field_bosses": [
       {
+        "poi_id": 1003,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Royal Carian Knight",
         "location": "Castle Rooftop"
@@ -8697,6 +8837,46 @@
         "poi_id": 23,
         "boss": "Red Wolf",
         "location": "Castle Basement"
+      },
+      {
+        "poi_id": 150,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 217,
+        "boss": "Draconic Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 219,
+        "boss": "Black Blade Kindred",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 222,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 216,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 218,
+        "boss": "Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 220,
+        "boss": "Magma Wyrm",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 221,
+        "boss": "empty",
+        "location": "TBD"
       }
     ],
     "castle": [
@@ -8867,6 +9047,11 @@
     ],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Death Rite Bird",
         "location": "Castle Rooftop"
@@ -8925,6 +9110,46 @@
         "poi_id": 23,
         "boss": "Ancient Hero of Zamor",
         "location": "Castle Basement"
+      },
+      {
+        "poi_id": 150,
+        "boss": "Black Blade Kindred",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 217,
+        "boss": "Ancestor Spirit",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 219,
+        "boss": "Erdtree Avatar",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 222,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 216,
+        "boss": "Draconic Tree Sentinel",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 218,
+        "boss": "empty",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 220,
+        "boss": "Royal Carian Knight",
+        "location": "TBD"
+      },
+      {
+        "poi_id": 221,
+        "boss": "Ulcerated Tree Spirit",
+        "location": "TBD"
       }
     ],
     "castle": [

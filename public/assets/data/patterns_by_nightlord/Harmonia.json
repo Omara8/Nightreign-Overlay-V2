@@ -5518,6 +5518,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Ancestor Spirit",
         "location": "Castle Rooftop"
@@ -5716,6 +5721,11 @@
     "forts": [],
     "ruins": [],
     "field_bosses": [
+      {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
       {
         "poi_id": 158,
         "boss": "Magma Wyrm",
@@ -5916,6 +5926,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Draconic Tree Sentinel",
         "location": "Castle Rooftop"
@@ -6114,6 +6129,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Ancestor Spirit",
         "location": "Castle Rooftop"
@@ -6306,6 +6326,11 @@
     "ruins": [],
     "field_bosses": [
       {
+        "poi_id": 1002,
+        "boss": "Rotted Woods Power",
+        "location": "TBD"
+      },
+      {
         "poi_id": 158,
         "boss": "Magma Wyrm",
         "location": "Castle Rooftop"
@@ -6424,7 +6449,7 @@
     "night2": {
       "circle_location": "TBD",
       "boss": "Mohg",
-      "poi_id": 186
+      "poi_id": 213
     },
     "townships": [],
     "spawn_points": [
