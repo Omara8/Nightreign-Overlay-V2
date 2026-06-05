@@ -10883,12 +10883,12 @@
         "poi_id": 214
       }
     ],
-    "night1": {
+    "night2": {
       "circle_location": "TBD",
       "boss": "Tree Sentinel and Royal Cavalrymen",
       "poi_id": 180
     },
-    "night2": {
+    "night1": {
       "circle_location": "TBD",
       "boss": "Battlefield Commander",
       "poi_id": 184

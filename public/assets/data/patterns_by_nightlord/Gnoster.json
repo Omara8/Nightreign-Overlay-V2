@@ -11205,7 +11205,13 @@
       "boss": "Great Wyrm",
       "poi_id": 183
     },
-    "townships": [],
+    "townships": [
+      {
+        "poi_id": 28,
+        "value": "Township - Township",
+        "location": "TBD"
+      }
+    ],
     "caravans": [
       {
         "poi_id": 33,

@@ -5834,7 +5834,13 @@
       "boss": "Knight Artorias",
       "poi_id": 181
     },
-    "townships": [],
+    "townships": [
+      {
+        "poi_id": 30,
+        "value": "Township - Township",
+        "location": "TBD"
+      }
+    ],
     "spawn_points": [
       {
         "poi_id": 34,
