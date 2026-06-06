@@ -3065,13 +3065,7 @@
       "boss": "Mohg",
       "poi_id": 178
     },
-    "townships": [
-      {
-        "poi_id": 29,
-        "value": "Township - Township",
-        "location": "TBD"
-      }
-    ],
+    "townships": [],
     "spawn_points": [
       {
         "poi_id": 29,
